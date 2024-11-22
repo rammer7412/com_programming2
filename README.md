@@ -20,3 +20,10 @@ Beta : 이종원
 
 Gamma : 배세강
 
+11월 23일
+Beat 모듈 초안 작성 완료
+
+import하고 get_data() 함수를 실행하면, data_preprocessing을 반환한다.
+
+data_preprocessing의 자료형은 딕셔너리이며, 데이터의 년도는 key = year를 입력하면 구할 수 있다. 
+year를 제외한 모든 key는 시험 과목 유형(물리학 I이면 과학탐구가 아닌 물리학 I이 key값이다)이며 각 key값에 담겨 있는 value는 pandas 데이터 프레임 형태로 0번째 열 : 표본점수 | 1번째 열 : 남자 | 2번째 열 : 여자 이다.
