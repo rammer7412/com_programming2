@@ -21,7 +21,7 @@ Beta : 이종원
 Gamma : 배세강
 
 11월 23일
-Beat 모듈 초안 작성 완료
+Beta 모듈 초안 작성 완료
 
 import하고 get_data() 함수를 실행하면, data_preprocessing을 반환한다.
 
