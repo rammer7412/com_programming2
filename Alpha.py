@@ -1,4 +1,5 @@
 import Beta
 
 
-print('ss')
+subject = Beta.get_data()
+print(subject.keys())
