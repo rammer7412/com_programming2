@@ -1,5 +1,12 @@
 import Beta
+import Gamma
 
+data = Beta.get_data()
+subject = list(data.keys())[1:]
+print('<과목명>')
+for i in range(len(subject)):
+    print(f'{i + 1}. {subject[i]}')
+print()
 
-subject = Beta.get_data()
-print(subject.keys())
+choice = input('원하시는 과목명을 입력해주세요 : ')
+print(data[choice])
