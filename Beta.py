@@ -3,7 +3,7 @@ import pandas as pd
 data = pd.read_csv('20231231_utf8bom.csv')
 
 data_preprocessing = {}
-data_preprocessing['year'] = 2023
+data_preprocessing['year'] = 2024
 
  
 data_preprocessing['국어'] = data.loc[data['영역'] == "국어", ["표준점수","남자","여자"]]
