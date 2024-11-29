@@ -1,6 +1,6 @@
 # com_programming2
-This is the repository for submitting the assignment of Computer Programming II that is the course of Korea University
 
+This is the repository for submitting the assignment of Computer Programming II that is the course of Korea University
 
 11 / 22
 # 본격적인 프로그래밍에 앞서 상의를 통해 모듈을 셋으로 나누어 각자 역할을 분담하기로 결정.
@@ -26,5 +26,10 @@ Alpha module 2차 프로그래밍 완료 : 사용자로부터 입력받은 과�
 11 / 29
 전 모듈 최종 프로그래밍 완료 : 각자 최종적으로 본인 module을 점검하여 코드 간결화 진행.
 
-data_preprocessing의 자료형은 딕셔너리이며, 데이터의 년도는 key = year를 입력하면 구할 수 있다. 
+data_preprocessing의 자료형은 딕셔너리이며, 데이터의 년도는 key = year를 입력하면 구할 수 있다.
 year를 제외한 모든 key는 시험 과목 유형(물리학 I이면 과학탐구가 아닌 물리학 I이 key값이다)이며 각 key값에 담겨 있는 value는 pandas 데이터 프레임 형태로 0번째 열 : 표본점수 | 1번째 열 : 남자 | 2번째 열 : 여자 이다.
+
+
+11월 26일
+
+Gamma 모듈 1차 commit함. 작동 성공 여부는 아직 모름.
