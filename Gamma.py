@@ -12,7 +12,7 @@ def graph(subject,data):
     plt.plot(data_pyojum, data_women, label="여자")
 
     plt.xlabel("표준점수")
-    plt.ylabel("점수")
+    plt.ylabel("학생 수")
     plt.title(f"2024학년도 수능 {subject}과목 분포")
     plt.legend()
     plt.show()
