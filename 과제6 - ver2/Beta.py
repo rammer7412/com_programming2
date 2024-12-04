@@ -2,7 +2,7 @@ import pandas as pd
 
 data_preprocessing = {}
 for year in range(2020,2024) :
-    loc = str(year) +'1231utf8bom.csv'
+    loc = str('과제6 - ver2')+'\\'+str(year) +'1231utf8bom.csv'
     data = pd.read_csv(loc, encoding='utf')
     temp = {}
     check = set()
