@@ -1,6 +1,5 @@
 import pandas as pd
-
-data = pd.read_csv('20231231_utf8bom.csv')
+data = pd.read_csv('과제6 - ver1\\20231231_utf8bom.csv')
 
 data_preprocessing = {}
 data_preprocessing['year'] = 2024
