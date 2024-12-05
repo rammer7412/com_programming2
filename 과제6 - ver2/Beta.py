@@ -1,8 +1,11 @@
 import pandas as pd
+import os
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 data_preprocessing = {}
 for year in range(2020,2024) :
-    loc = str('과제6 - ver2')+'\\'+str(year) +'1231utf8bom.csv'
+    loc = str(year) +'1231utf8bom.csv'
     data = pd.read_csv(loc, encoding='utf')
     temp = {}
     check = set()

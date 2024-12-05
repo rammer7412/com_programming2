@@ -1,5 +1,8 @@
 import Beta
 import Gamma
+import os
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 data = Beta.get_data()
 year = data.keys()
@@ -17,4 +20,4 @@ for i in range(len(subject)):
 print()
 choice_subject = subject[int(input('원하시는 과목의 번호를 입력해주세요 : ')) - 1]
 
-Gamma.graph(choice_subject, data[choice_year][choice_subject])
+Gamma.graph(choice_year,choice_subject, data[choice_year][choice_subject])
