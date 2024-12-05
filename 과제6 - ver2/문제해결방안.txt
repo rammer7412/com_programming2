@@ -9,7 +9,6 @@ Beta module
 이 데이터 프레임을 data_preprocessing의 해당 연도의 val 값에 temp를 넣어준다.
 위 과정을 for문에서 실행하여 2021학년도부터 2024학년도 수능까지 정보를 data_preprocessing에 담는다. 이후 ver1과 마찬가지로 get_data 메서드를 만들었고 선언시 data_preprocessing이 반환된다. 
 
-
 Gamma module
 이전에는 2024학년도 수능 데이터만 받았으면 됐지만, 이제는 몇 년도 수능인지 선택하여 그 해에 해당하는 데이터를 받을 필요가 있었다. 따라서 몇 년도 수능인지를 표시할 수 있도록 year 매개변수를 추가하였다. 또한, 그래프를 plot그래프에서 bar와 scatter로 바꾸었다. 
 그리고 두 그래프의 차이를 명확히 보이기 위해 color를 skyblue와 orange 2개 추가하였다.
