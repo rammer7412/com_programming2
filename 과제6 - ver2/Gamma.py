@@ -11,8 +11,8 @@ def graph(year,subject,data):
     data_women = data['여자']
     plt.rcParams['font.family'] = 'Malgun Gothic'
     plt.figure(num='컴퓨터프로그래밍II 과제',figsize=(10, 6)) 
-    plt.bar(data_pyojum, data_men, label="남자",color="skyblue")
-    plt.plot(data_pyojum, data_women, label="여자",color="orange")
+    plt.bar(data_pyojum, data_men,label="남자",color="skyblue")
+    plt.scatter(data_pyojum, data_women,label="여자",color="orange")
 
     plt.xlabel("표준점수")
     plt.ylabel("학생 수")
